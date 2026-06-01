@@ -44,7 +44,7 @@ function App() {
       
       const genAI = new GoogleGenerativeAI(apiKey);
       // Dùng đúng model gemini-1.5-flash cho khớp cổng kết nối mới
-      const model = genAI.getGenerativeModel({ model: "gemini-flash-latest" });
+      const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
 
       const prompt = `
         Bạn là một người bạn thân thiết chuyên xem bài Tarot, tính cách thẳng thắn, thực tế, nói chuyện sắc sảo nhưng rất thương người xem.
